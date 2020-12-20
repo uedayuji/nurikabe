@@ -44,7 +44,7 @@ export default class Unauthed extends Component {
     return (
       <Form onSubmit={this.onSubmit} loading={loading} error={Boolean(message)}>
           <Form.Input
-            name="hoge" required
+            name="username" required
             fluid icon='user' iconPosition='left' placeholder='Username'
           />
           <Form.Input
